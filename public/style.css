@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap');
+body{
+    margin:0;
+    background-color:#0eaa9b;
+    font-family:'Raleway', sans-serif;
+    width: 100%;
+    color: white;
+
+}
+footer{
+    background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(0,52,89,1) 0%, rgba(0,168,232,1) 90% );
+    height: 150px;
+    width: 100%;
+    position: static;
+    bottom: 0;
+    font-family:'Raleway', sans-serif;
+    margin-bottom: 0;
+}
+
+header{
+    background-color: burlywood;
+    height: 70px;
+    margin-bottom: -20px;
+}
+.nav-bar{
+    padding-top: 4px;
+    padding-left: 10px;
+    width : auto;
+}
+nav{
+    display: flex;
+    align-items: center;
+}
+.nav-links{
+    
+    display: flex;
+    width: 30%;
+    justify-content: space-around;
+}
+.nav-links a{
+    letter-spacing: 3px;
+    text-decoration: none;
+}
+
+ul{
+    list-style-type: none;
+}
+.intro-pic{
+    margin-top: 0px;
+    height: 975px;
+    text-align: center;
+    color: white;
+    background-image: url(bart-pic2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    animation: main-pic-load 1.2s;
+    
+   
+}
+@keyframes main-pic-load{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+#bart-text{
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: (translate(-50%), translate(-50%));
+    font-size: 55px;
+    font-weight: bolder;
+   
+}
+#about{
+    transition: 2s;
+    padding: 10px;
+}
+.what-is-bart{
+    color:white;
+    margin-top: 150px;
+    margin-left: 105px;
+}
+.bart-description-container{
+    padding-top: 3%;
+    padding-left: 10%;
+    padding-right: 20%;
+}
+.bart-description{
+   height: 100px;
+   width: 100px;
+   background-color: transparent;
+   font-size: 40px;
+   font-family:'Raleway', sans-serif;
+}
+
+
+.main-box{
+    background-color: #333;
+    width: 100%;
+    margin: auto;
+    margin-top: 250px;
+    padding: 1%;
+    padding-bottom: 100px;
+    text-align: center;
+}
+.cost-info{
+    padding: 10%;
+    font-size: 30px;
+    font-weight: bold;
+}
+.sub-button input{
+    border: none;
+    border-radius: 20px;
+    margin-top: 3%;
+    color: rgb(12, 138, 206);
+    font-weight: bold;
+    font-size: 18px;
+    background-color: greenyellow;
+    outline: none;
+    font-family:'Raleway', sans-serif;
+    padding: 6px;
+}
+
+.sub-button input:hover{
+    color: white;
+    background-color: rgb(12, 138, 206);
+    transition: 0.3s;
+}
+
+.arrival-station{
+    padding-left: 10%;
+}
+.more-info-container{
+    margin-left: 9%;
+    margin-right: 9%;
+    margin-bottom: 500px;
+    width: 85%;
+    overflow: hidden;
+
+}
+.more-info{
+    width:25%;
+    padding: 10px;
+    float: left;
+    box-sizing: border-box;
+}
+
+

@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <header>
+            <div class = "nav-bar">
+                <nav>
+                    <ul class = "nav-links">
+                        <li><a href="">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#fare">Fare</a></li>
+                        <li><a href="#">Schedule</a></li>
+                        <li><a href="#">Poop</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <div id="home" class = "intro-pic">
+            <h2 id="bart-text">Bart</h2>
+        </div>
+
+        <div id="about">
+            <h1 class="what-is-bart">What is Bart?</h1>
+        </div>
+        <div class="bart-description-container">
+            <p1 class="bart-description">Bay Area Rapid Transit is a rapid transit public transportation system serving the San Francisco Bay Area in California. The heavy rail elevated and subway system connects San Francisco and Oakland with urban and suburban areas in Alameda, Contra Costa, and San Mateo counties.</p1>
+        </div>
+
+
+        <div id="fare">
+            <div class = "main-box">
+                <form action = "" method = "POST" class = "my-form">
+                    <label>Starting Station</label>
+                        <select id = "origin-select">
+                            <option value= "12th">12th St. Oakland City Center</option>
+                            <option value= "16th">16th St. Mission </option>
+                            <option value= "19th">19th St. Oakland</option>
+                            <option value= "24th">24th St. Mission </option>
+                            <option value= "ashb">Ashby</option>
+                            <option value= "antc">Antioch</option>
+                            <option value= "balb">Balboa Park</option>
+                            <option value= "bayf">Bay Fair</option>
+                            <option value= "bery">Berryessa </option>
+                            <option value= "cast">Castro Valley</option>
+                            <option value= "civc">Civic Center</option>
+                            <option value= "cols">Coliseum</option>
+                            <option value= "colm">Colma</option>
+                            <option value= "conc">Concord</option>
+                            <option value= "daly">Daly City</option>
+                            <option value= "dbrk">Downtown Berkeley</option>
+                            <option value= "dubl">Dublin/Pleasanton</option>
+                            <option value= "deln">El Cerrito del Norte</option>
+                            <option value= "plza">El Cerrito Plaza</option>
+                            <option value= "embr">Embarcadero</option>
+                            <option value= "frmt">Fremont</option>
+                            <option value= "ftvl">Fruitvale</option>
+                            <option value= "glen">Glen Park</option>
+                            <option value= "hayw">Hayward</option>
+                            <option value= "lafy">Lafayette</option>
+                            <option value= "lake">Lake Merritt</option>
+                            <option value= "mcar">MacArthur</option>
+                            <option value= "mlbr">Millbrae</option>
+                            <option value= "mont">Montgomery St. </option>
+                            <option value= "nbrk">North Berkeley</option>
+                            <option value= "ncon">North Concord/Martinez</option>
+                            <option value= "oakl">Oakland Int'l Airport</option>
+                            <option value= "orin">Orinda</option>
+                            <option value= "pitt">Pittsburg/Bay Point</option>
+                            <option value= "pctr">Pittsburg Center</option>
+                            <option value= "phil">Pleasant Hill</option>
+                            <option value= "powl">Powell St.</option>
+                            <option value= "rich">Richmond</option>
+                            <option value= "rock">Rockridge </option>
+                            <option value= "sbrn">San Bruno</option>
+                            <option value= "sfia">San Francisco Int'l Airport</option>
+                            <option value= "sanl">San Leandro</option>
+                            <option value= "shay">South Hayward</option>
+                            <option value= "ssan">South San Francisco</option>
+                            <option value= "ucty">Union City</option>
+                            <option value= "warm">Warm Springs/South Fremont</option>
+                            <option value= "wcrk">Walnut Creek</option>
+                            <option value= "wdub">West Dublin</option>
+                            <option value= "woak">West Oakland</option>
+                        </select>
+                    <label class = "arrival-station">Arrival Station</label>
+
+                    <select id = "destination-select">
+                        <option value= "12th">12th St. Oakland City Center</option>
+                        <option value= "16th">16th St. Mission </option>
+                        <option value= "19th">19th St. Oakland</option>
+                        <option value= "24th">24th St. Mission </option>
+                        <option value= "ashb">Ashby</option>
+                        <option value= "antc">Antioch</option>
+                        <option value= "balb">Balboa Park</option>
+                        <option value= "bayf">Bay Fair</option>
+                        <option value= "bery">Berryessa </option>
+                        <option value= "cast">Castro Valley</option>
+                        <option value= "civic">Civic Center</option>
+                        <option value= "cols">Coliseum</option>
+                        <option value= "colm">Colma</option>
+                        <option value= "conc">Concord</option>
+                        <option value= "daly">Daly City</option>
+                        <option value= "dbrk">Downtown Berkeley</option>
+                        <option value= "dubl">Dublin/Pleasanton</option>
+                        <option value= "deln">El Cerrito del Norte</option>
+                        <option value= "plza">El Cerrito Plaza</option>
+                        <option value= "embr">Embarcadero</option>
+                        <option value= "frmt">Fremont</option>
+                        <option value= "ftvl">Fruitvale</option>
+                        <option value= "glen">Glen Park</option>
+                        <option value= "hayw">Hayward</option>
+                        <option value= "lafy">Lafayette</option>
+                        <option value= "lake">Lake Merritt</option>
+                        <option value= "mcar">MacArthur</option>
+                        <option value= "mlbr">Millbrae</option>
+                        <option value= "mont">Montgomery St. </option>
+                        <option value= "nbrk">North Berkeley</option>
+                        <option value= "ncon">North Concord/Martinez</option>
+                        <option value= "oakl">Oakland Int'l Airport</option>
+                        <option value= "orin">Orinda</option>
+                        <option value= "pitt">Pittsburg/Bay Point</option>
+                        <option value= "pctr">Pittsburg Center</option>
+                        <option value= "phil">Pleasant Hill</option>
+                        <option value= "powl">Powell St.</option>
+                        <option value= "rich">Richmond</option>
+                        <option value= "rock">Rockridge </option>
+                        <option value= "sbrn">San Bruno</option>
+                        <option value= "sfia">San Francisco Int'l Airport</option>
+                        <option value= "sanl">San Leandro</option>
+                        <option value= "shay">South Hayward</option>
+                        <option value= "ssan">South San Francisco</option>
+                        <option value= "ucty">Union City</option>
+                        <option value= "warm">Warm Springs/South Fremont</option>
+                        <option value= "wcrk">Walnut Creek</option>
+                        <option value= "wdub">West Dublin</option>
+                        <option value= "woak">West Oakland</option>
+                    </select>
+
+                    <div class = "sub-button">
+                        <input type = "button" id = "submit-button" value = "Calculate Cost">
+                    </div>
+                
+                
+                    <div class = "cost-info">
+                        <div>
+                            <label> Clipper: $</label>
+                            <label id = "clipper-fare"> 0.00 </label>
+                        </div>
+                        <div>
+                            <label> Cash: $</label>
+                            <label id = "cash-fare"> 0.00 </label>
+                        </div>
+                        <div>
+                            <label> Senior/Disabled: $</label>
+                            <label id = "senior-fare"> 0.00 </label>
+                        </div>
+                        <div>
+                            <label> Youth: $</label>
+                            <label id = "youth-fare"> 0.00 </label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="more-info-container">
+                <div class = "more-info">
+                    <h3>Clipper</h3>
+                    <p>
+                        Clipper is the all-in-one transit card for the Bay Area. Click here for a current list of the systems that accept Clipper.
+
+Your Clipper card can hold transit passes, cash value or any combination. Cash value works on all participating transit systems. Passes and tickets are specific to each system.
+
+You can add value to your card as you go, or for added convenience, you can set up Autoload, which automatically reloads your card whenever your pass expires or your cash value balance falls below $10.
+                    </p>
+                </div>
+                <div class = "more-info">
+                    <h3>Cash </h3>
+                    <p>
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perferendis, nostrum! Voluptates harum amet quae, nulla eum dolores eos eius adipisci expedita! Aspernatur architecto at minus eum adipisci officia, blanditiis perferendis.
+                    </p>
+                </div>
+                <div class = "more-info">
+                    <h3>Senior/Disabled</h3>
+                    <p>
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perferendis, nostrum! Voluptates harum amet quae, nulla eum dolores eos eius adipisci expedita! Aspernatur architecto at minus eum adipisci officia, blanditiis perferendis.
+                    </p>
+                </div>
+                <div class = "more-info">
+                    <h3>Youth</h3>
+                    <p>
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perferendis, nostrum! Voluptates harum amet quae, nulla eum dolores eos eius adipisci expedita! Aspernatur architecto at minus eum adipisci officia, blanditiis perferendis.
+                    </p>
+                </div>
+            </div>
+        </form>
+
+        <footer>
+            <div>
+                <h3>Copyright</h3>
+            </div>
+        </footer>
+        <script src = "front_end.js"> </script>
+
+    </body>
+
+</html>
